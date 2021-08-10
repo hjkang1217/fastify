@@ -16,9 +16,9 @@ const postOptions = {
   }
 }
 
-async function routes(fastify, options, done) {
+async function routes(fastify, options) {
   fastify.get('/', async (request, reply) => {
-    return { hello: 'world' }
+    reply.send({ hello: 'world' });
   });
 
   fastify.post('/', postOptions, async (request, reply) => {
@@ -29,8 +29,6 @@ async function routes(fastify, options, done) {
 
     reply.send('OK');
   })
-
-  done()
 }
 
 export default routes

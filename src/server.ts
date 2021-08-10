@@ -1,13 +1,7 @@
-import 'module-alias/register';
 import server from './index'
 const port: number = 8766;
 
-const app = server({
-  logger: {
-    level: 'info',
-    prettyPrint: true
-  }
-})
+const app = server;
 
 app.listen(port, (err, address) => {
   if (err) {

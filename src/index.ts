@@ -11,4 +11,4 @@ function build(opts={}) {
   return app;
 }
 
-export default build
+export default build()

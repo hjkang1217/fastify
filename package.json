@@ -19,6 +19,8 @@
     "@types/bcrypt": "^5.0.0",
     "@types/node": "^16.4.13",
     "nodemon": "^2.0.4",
+    "pino-pretty": "^5.1.2",
+    "tap": "^15.0.9",
     "ts-node": "^10.1.0",
     "typescript": "^4.3.5"
   }
