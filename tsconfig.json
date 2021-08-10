@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "moduleResolution":"node",
+    "esModuleInterop":true,
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true
+  },
+}

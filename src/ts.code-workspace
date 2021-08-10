@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../express"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../nest"
+		},
+		{
+			"path": "../../koa"
+		},
+		{
+			"path": "../../loopback"
+		}
+	],
+	"settings": {}
+}

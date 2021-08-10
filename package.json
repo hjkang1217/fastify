@@ -1,0 +1,25 @@
+{
+  "name": "fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "nodemon --exec ts-node dist/server.js",
+    "test": "tap --reporter=list --watch --ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sinclair/typebox": "^0.20.4",
+    "fastify": "^3.20.1",
+    "pg-promise": "^10.11.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/node": "^16.4.13",
+    "nodemon": "^2.0.4",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  }
+}
